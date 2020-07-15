@@ -5,20 +5,15 @@ log.log
 **/node_modules
 *.pyc
 *.vsix
-**/.vscode/.ropeproject/**
 **/testFiles/**/.cache/**
 *.noseids
 .nyc_output
-.vscode-test
 __pycache__
 npm-debug.log
 **/.mypy_cache/**
 !yarn.lock
 coverage/
 cucumber-report.json
-**/.vscode-test/**
-**/.vscode test/**
-**/.vscode-smoke/**
 **/.venv*/
 port.txt
 precommit.hook
@@ -41,3 +36,6 @@ debugpy*.log
 pydevd*.log
 nodeLanguageServer/**
 nodeLanguageServer.*/**
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
